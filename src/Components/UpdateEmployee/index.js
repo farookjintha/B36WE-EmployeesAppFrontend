@@ -50,7 +50,7 @@ const UpdateEmployee = () => {
                     role: 2
                 });
 
-                navigate('/employees');
+                navigate('/');
             }
         }catch(error){
             console.log('Erro while register user: ', error);

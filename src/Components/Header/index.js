@@ -3,16 +3,16 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
     return (
         <div>
-            <nav class="navbar navbar-expand-lg bg-light">
-                <div class="container-fluid">
-                    <NavLink class="navbar-brand" to="/employees">EmployeeApplication</NavLink>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+            <nav className="navbar navbar-expand-lg bg-light">
+                <div className="container-fluid">
+                    <NavLink className="navbar-brand" to="/">EmployeeApplication</NavLink>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav  m-2">
-                            <li class="nav-item active">
-                                <NavLink class="navbar-brand" to="/employees/add"> Create Employee </NavLink>
+                    <div className="collapse navbar-collapse" id="navbarNav">
+                        <ul className="navbar-nav  m-2">
+                            <li className="nav-item active">
+                                <NavLink className="navbar-brand" to="/employees/add"> Create Employee </NavLink>
                             </li>
                         </ul>
                     </div>

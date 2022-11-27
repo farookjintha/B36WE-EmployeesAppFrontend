@@ -19,7 +19,7 @@ function App() {
             <Route path='/signin' element={<SignIn />}/>
             <Route path='/signup' element={<SignUp />} />
             <Route path='/reset-password' element={<ResetPassword/>} />
-            <Route path='/employees' element={<EmployeeList />} />
+            <Route path='/' element={<EmployeeList />} />
             <Route path='/employees/add' element={<CreateEmployee />} />
             <Route path='/employees/:empID/update' element={ <UpdateEmployee />} />
           </Routes>

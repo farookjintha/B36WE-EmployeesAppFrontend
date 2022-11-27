@@ -2,16 +2,16 @@ import './footer.css';
 
 const Footer = () => {
     return(
-        <div class="container footer-container">
-            <footer class="py-3 my-4">
-                <ul class="nav justify-content-center border-bottom">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+        <div className="container footer-container">
+            <footer className="py-3 my-4">
+                <ul className="nav justify-content-center border-bottom">
+                <li className="nav-item">Home</li>
+                <li className="nav-item">Feature</li>
+                <li className="nav-item">Pricing</li>
+                <li className="nav-item">FAQ</li>
+                <li className="nav-item">About</li>
                 </ul>
-                <p class="text-center text-muted">© 2022 Company, Inc</p>
+                <p className="text-center text-muted">© 2022 Company, Inc</p>
             </footer>
         </div>
     )
